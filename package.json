@@ -1,0 +1,31 @@
+{
+  "author": "Stanislav Pěrka",
+  "name": "js-codestyle-format",
+  "description": "Formátuje javascriptové soubory ve vybrané složce dle pravidel prettier a eslint",
+  "license": "MIT",
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:anythingtypci/js-codestyle-format.git"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "keywords": [
+    "javascript",
+    "codeStyle",
+    "format",
+    "jslint"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "prettier-eslint": "^4.3.2",
+    "recursive-readdir": "^2.1.1"
+  },
+  "devDependencies": {
+    "mocha": "1.14.0"
+  }
+}

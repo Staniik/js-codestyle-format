@@ -1,0 +1,35 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "arrowFunctions": true,
+            "blockBindings": true,
+            "defaultParams": true,
+            "destructuring": true,
+            "forOf": true,
+            "generators": true,
+            "objectLiteralComputedProperties": true,
+            "objectLiteralShorthandMethods": true,
+            "objectLiteralShorthandProperties": true,
+            "restParams": true,
+            "spread": true,
+            "templateStrings": true,
+            "modules": true,
+            "classes": true,
+            "jsx": true
+        }
+    },
+    "rules": {
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "comma-dangle": ["error", "never"],
+        "key-spacing": ["error",  {"align": {
+            "beforeColon": true,
+            "afterColon": true,
+            "on": "colon"
+        }}],
+        "quotes": ["error", "double", {"allowTemplateLiterals": true}],
+        "semi": ["error", "never"]
+    }
+}
